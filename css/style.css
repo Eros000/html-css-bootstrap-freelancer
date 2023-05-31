@@ -6,3 +6,34 @@
 /* 
     GENERAL
 */
+
+
+.box{
+    background-color: blue;
+    border: 1px dashed white;
+    color: white;
+
+}
+
+
+
+
+
+
+/* 
+    HEADER
+*/
+
+.color-header{
+    background-color: #2C3E50;
+}
+
+
+/* 
+    MAIN
+*/
+
+
+.color-main-green{
+    background-color: #1ABC9C;
+}

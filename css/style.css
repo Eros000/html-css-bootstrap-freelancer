@@ -23,7 +23,6 @@
 /* 
     HEADER
 */
-
 .color-header{
     background-color: #2C3E50;
 }
@@ -33,7 +32,22 @@
     MAIN
 */
 
-
 .color-main-green{
     background-color: #1ABC9C;
 }
+
+.my-img{
+    width: 200px;
+    height: 200px;
+}
+
+.my-img-2{
+    width: 100%
+}
+
+.row .col-12 div h3{
+    font-size: medium;
+}
+
+
+

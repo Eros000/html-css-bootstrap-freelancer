@@ -10,36 +10,41 @@
 
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
 
+        <!--FONT AWESOME-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 
         <!-- CSS -->
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
 
-        <header class="container-fluid color-header">
+        <header>
 
-            <div class="container">
-
-                <div class="row justify-content-between">
-
-                    <div class="col-2">
-
-                        <div class="box">
-                            logo
-                        </div>
-
-                    </div>
-
-                    <div class="col-2">
-
-                        <div class="box">
-                            portfolio   about      contact
-                        </div>
-
-                    </div>
-
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-white" href="#">START BOOTSTRAP</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">PORTFOLIO</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#">ABOUT</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="#" >
+                          CONTACT
+                        </a>
+                      </li>
+                    </ul>
+                    
+                  </div>
                 </div>
-            </div>
+            </nav>
             
         </header>
 
@@ -49,21 +54,27 @@
 
             <div class="container-fluid color-main-green">
 
-                <div class="container">
+                <div class="container-md">
                     
                     <div class="row">
     
-                        <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2  col-10 offset-1">
+                        <div class="col-12">
     
-                            <div class="box">
+                            <div class="text-white text-center mb-3 mt-3">
     
-                                immagine
+                                <img class="my-img rounded mx-auto d-block" src="img/avatar.svg" alt="">
+                                
+                                <h1>
+                                    START BOOTSTRAP
+                                </h1>
                                 <br>
-                                titolone
-                                <br>
-                                linea grafica
-                                <br>
-                                altro
+                                <div>
+
+                                </div>
+
+                                <h3>
+                                    GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+                                </h3>
     
                             </div>
     
@@ -80,16 +91,15 @@
 
             <div class="container-fluid">
 
-                <div class="container">
+                <div class="container-md">
                     
                     <div class="row">
     
-                        <div class="col-4 offset-4">
+                        <div class="col-12 text-center">
     
-                            <div class="box">
+                            <div class="text-center mt-3 mb-3">
     
-                                <br>
-                                PORTFOLIO
+                                <h2>PORTFOLIO</h2>
                                 <br>
                                 linea grafica
                                 <br>
@@ -106,13 +116,9 @@
     
                         <div class="col-lg-4 col-md-6 col-12">
     
-                            <div class="box">
+                            <div class="mb-4">
     
-                                IMMAGINE 
-                                <br>
-                                <br>
-                                <br>
-                                <br>
+                                <img class="my-img-2 rounded-4 " src="img/cabin.png" alt="">
                                 
     
                             </div>
@@ -121,13 +127,9 @@
 
                         <div class="col-lg-4 col-md-6 col-12">
     
-                            <div class="box">
+                            <div class="mb-4">
     
-                                IMMAGINE 
-                                <br>
-                                <br>
-                                <br>
-                                <br>
+                                <img class="my-img-2 rounded-4 " src="img/cake.png" alt="">
                                 
     
                             </div>
@@ -136,13 +138,9 @@
 
                         <div class="col-lg-4 col-md-6 col-12">
     
-                            <div class="box">
+                            <div class="mb-4">
     
-                                IMMAGINE 
-                                <br>
-                                <br>
-                                <br>
-                                <br>
+                                <img class="my-img-2 rounded-4 " src="img/circus.png" alt="">
                                 
     
                             </div>
@@ -151,13 +149,9 @@
 
                         <div class="col-lg-4 col-md-6 col-12">
     
-                            <div class="box">
+                            <div class="mb-4">
     
-                                IMMAGINE 
-                                <br>
-                                <br>
-                                <br>
-                                <br>
+                                <img class="my-img-2 rounded-4 " src="img/game.png" alt="">
                                 
     
                             </div>
@@ -166,13 +160,9 @@
 
                         <div class="col-lg-4 col-md-6 col-12">
     
-                            <div class="box">
+                            <div class="mb-4">
     
-                                IMMAGINE 
-                                <br>
-                                <br>
-                                <br>
-                                <br>
+                                <img class="my-img-2 rounded-4 " src="img/safe.png" alt="">
                                 
     
                             </div>
@@ -181,13 +171,9 @@
 
                         <div class="col-lg-4 col-md-6 col-12">
     
-                            <div class="box">
+                            <div class="mb-4">
     
-                                IMMAGINE 
-                                <br>
-                                <br>
-                                <br>
-                                <br>
+                                <img class="my-img-2 rounded-4 " src="img/submarine.png" alt="">
                                 
     
                             </div>
@@ -206,16 +192,15 @@
 
             <div class="container-fluid color-main-green">
 
-                <div class="container">
+                <div class="container-md">
                     
                     <div class="row">
     
-                        <div class="col-4 offset-4">
+                        <div class="col-12 text-center">
     
-                            <div class="box">
+                            <div class="text-white text-center mt-5 mb-3">
     
-                                <br>
-                                ABOUT
+                                <h2>ABOUT</h2>
                                 <br>
                                 linea grafica
                                 <br>
@@ -230,46 +215,149 @@
 
                     <div class="row">
     
-                        <div class="col-md-5 offset-md-1">
+                        <div class="col-md-6">
     
-                            <div class="box">
+                            <div class="text-white ps-md-5 ps-4 pe-4">
     
                                 
-                                <br>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit molestiae veritatis aperiam vitae quis eligendi blanditiis architecto quibusdam inventore impedit.
-                                <br>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum officia placeat delectus assumenda libero ex, aliquam qui perspiciatis! Pariatur at repellat possimus illum error harum enim porro sed voluptatum dolor!
+                                </p>
+                                
                                 
                             </div>
     
                         </div>
 
-                        <div class="col-md-5">
+                        <div class="col-md-6">
     
-                            <div class="box">
+                            <div class="text-white pe-md-5 ps-4 pe-4">
     
                                 
-                                <br>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit molestiae veritatis aperiam vitae quis eligendi blanditiis architecto quibusdam inventore impedit.
-                                <br>
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum officia placeat delectus assumenda libero ex, aliquam qui perspiciatis! Pariatur at repellat possimus illum error harum enim porro sed voluptatum dolor!
+                                </p>
+
                                 
                             </div>
     
                         </div>
                         
+                    </div>
 
+                    <div class="row">
+    
+                        <div class="col-12 text-center">
+    
+                            <div class="text-center mt-5 mb-3">
+    
+                                <button type="button" class="btn btn-outline-light">
+                                    
+                                    <i class="fa-solid fa-download"></i>
+                                    Download
+
+                                </button>
+                                
+    
+                            </div>
+    
+                        
+                        </div>
+
+                    </div>
+
+                </div>
+                
+            </div>
+
+
+            <!--section 3-->
+
+            <div class="container-fluid">
+
+                <div class="container-md">
+                    
+                    <div class="row">
+    
+                        <div class="col-12 text-center">
+    
+                            <div class="text-center mt-5 mb-3">
+    
+                                <h2>CONTACT ME</h2>
+                                <br>
+                                linea grafica
+                                <br>
+                                
+                            </div>
+                            
+                        </div>
+
+                        <div class="col-12 ">
+    
+                            <div class="mt-5 mb-3 ms-4 me-4">
+    
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Name</li>
+                                    <li class="list-group-item">Email Address</li>
+                                    <li class="list-group-item">Phone Number</li>
+                                    <li class="list-group-item">
+                                        Message
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br> 
+
+                                    </li>
+                                                                      
+                                    <li class="list-group-item">
+                                        <button type="button" class="btn color-main-green text-white">Send</button>
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                            
+                        </div>
+    
+                        
+
+                    </div>
+
+                    
+                </div>
+                
+            </div>
+
+            
                         
                             
     
 
                 
 
-                </div>
 
-            </div>
+                
+
 
 
             
         </main>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
 
         <footer>
             
